@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { UilCar } from "@iconscout/react-unicons";
 import { UilLocationPoint } from "@iconscout/react-unicons";
 import { UilCalendarAlt } from "@iconscout/react-unicons";
+import BookNowBG from "../home/booknowbg.png";
 export default function BookNow() {
   const [carType, setCarType] = useState("");
   const [pickUpLocation, setPickUpLocation] = useState("");
@@ -34,9 +35,13 @@ export default function BookNow() {
     <>
       <section className=" relative justify-around">
         <div className=" flex justify-center ">
-          <div className=" flex shadow-black shadow-2xl justify-evenly bg-bgbook flex-col p-8 w-3/4">
+          <div className=" flex shadow-black shadow-2xl justify-evenly flex-col p-8 w-3/4">
+            <img
+              src={BookNowBG}
+              className="absolute w-3/4 z-10 "
+              alt="backgroundbg"
+            />
             {/* <div className="flex"> */}
-            {/* <img src={BookNowBG} className=" top-0 left-0 z-100" /> */}
             <div className="font-semibold text-lg">
               <h1>Book a car</h1>
               <p id="field_empty" className=" hidden text-red-700">

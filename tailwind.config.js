@@ -12,8 +12,8 @@ module.exports = {
         borderbg: "#706f7b",
       },
       backgroundImage: {
-        bgbook:
-          "url('/home/shashank/Web Dev Projs/carrental/src/Pictures/booknowbg.png')",
+        // bgbook:
+        //   "url('/home/shashank/Web Dev Projs/carrental/src/Pictures/booknowbg.png')",
         optionbg: "rgb(239, 239, 239)",
       },
     },
