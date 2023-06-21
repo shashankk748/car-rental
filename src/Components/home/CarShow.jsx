@@ -27,7 +27,7 @@ export default function CarShow() {
       Year: "2012",
       Doors: "4/5",
       AC: "Yes",
-      Trasmission: "Manaul",
+      Trasmission: "Manual",
       Fuel: "Gasoline",
       price: "$45",
     },
@@ -40,7 +40,7 @@ export default function CarShow() {
       Year: "2008",
       Doors: "4/5",
       AC: "Yes",
-      Trasmission: "Manaul",
+      Trasmission: "Manual",
       Fuel: "Diesel",
       price: "$37",
     },
@@ -175,10 +175,8 @@ export default function CarShow() {
                     </td>
                   </tr>
                   <tr>
-                    <td className="border-borderbg border-2 p-4 w-[50%]">
-                      Trasmission
-                    </td>
-                    <td className="border-borderbg border-2 p-4 w-[50%]">
+                    <td className="border-borderbg border-2">Trasmission</td>
+                    <td className="border-borderbg border-2">
                       {cars_info[selectedCar].Trasmission}
                     </td>
                   </tr>
@@ -199,6 +197,23 @@ export default function CarShow() {
         </div>
         <div></div>
         {/* </div> */}
+      </section>
+    </>
+  );
+}
+export function SaveBig() {
+  return (
+    <>
+      <section>
+        <div className="bg-[#2D2D2D] mt-[40vh] flex text-center flex-col justify-evenly h-[25vh]">
+          <div className="text-white font-bold text-6xl">
+            Save big with our cheap car rental!
+          </div>
+          <div className="text-white text-2xl">
+            Top Airports. Local Suppliers.{" "}
+            <span className="text-main">24/7</span> Support.
+          </div>
+        </div>
       </section>
     </>
   );

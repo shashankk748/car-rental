@@ -4,6 +4,8 @@ import Home from "./Components/home/Home";
 import BookNow from "./Components/home/BookNow";
 import PlanTrip from "./Components/home/PlanTrip";
 import CarShow from "./Components/home/CarShow";
+import { SaveBig } from "./Components/home/CarShow";
+import Ads from "./Components/home/Ads";
 // import { useRef, useEffect } from "react";
 // import { hover } from "@testing-library/user-event/dist/hover";
 
@@ -45,6 +47,8 @@ function App() {
         <BookNow />
         <PlanTrip />
         <CarShow />
+        <SaveBig />
+        <Ads />
       </div>
     </div>
   );
