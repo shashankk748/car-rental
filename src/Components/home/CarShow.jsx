@@ -204,8 +204,8 @@ export default function CarShow() {
 export function SaveBig() {
   return (
     <>
-      <section>
-        <div className="bg-[#2D2D2D] mt-[40vh] flex text-center flex-col justify-evenly h-[25vh]">
+      <section className="mt-[40vh]">
+        <div className="bg-[#2D2D2D] flex text-center flex-col justify-center gap-5 h-[25vh]">
           <div className="text-white font-bold text-6xl">
             Save big with our cheap car rental!
           </div>
