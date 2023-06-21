@@ -13,7 +13,7 @@ export default function Ads() {
             />
             <div className=" flex gap-56">
               <div className=" flex flex-col justify-evenly w-2/3">
-                <p className=" font-bold text-2xl">Why Choose Us</p>
+                <p className=" font-bold text-3xl">Why Choose Us</p>
                 <p className=" font-bold text-5xl">
                   Best valued deals you will ever find
                 </p>
