@@ -6,6 +6,7 @@ import PlanTrip from "./Components/home/PlanTrip";
 import CarShow from "./Components/home/CarShow";
 import { SaveBig } from "./Components/home/CarShow";
 import Ads from "./Components/home/Ads";
+import Testimonials from "./Components/home/Testimonials";
 // import { useRef, useEffect } from "react";
 // import { hover } from "@testing-library/user-event/dist/hover";
 
@@ -49,6 +50,7 @@ function App() {
         <CarShow />
         <SaveBig />
         <Ads />
+        <Testimonials />
       </div>
     </div>
   );
