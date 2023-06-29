@@ -8,7 +8,12 @@ export default function Testimonials() {
           <div className=" w-5/12 flex flex-col gap-6">
             <p className=" font-bold text-2xl">Reviewed by People</p>
             <p className="font-bold text-4xl">Client's Testimonials</p>
-            <p className="text-desc"></p>
+            <p className="text-desc">
+              Discover the positive impact we've made on the our clients by
+              reading through their testimonials. Our clients have experienced
+              our service and results, and they're eager to share their positive
+              experiences with you.
+            </p>
           </div>
           <div>
             <div className=" bg-white text-black flex flex-col">
