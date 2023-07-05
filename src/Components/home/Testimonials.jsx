@@ -33,7 +33,7 @@ export default function Testimonials() {
                   <p className=" flex translate-x-[20%] translate-y-[30%] font-bold">
                     Parry Hotter
                   </p>
-                  <UilComment className=" text-main translate-y-[30%]" />
+                  <UilComment className="text-main translate-y-[100%] ml-[10vw] text-xl" />
                 </div>
               </div>
               <div className=" bg-white text-black sahdow-black shadow-2xl p-9 w-1/2">
@@ -50,7 +50,7 @@ export default function Testimonials() {
                   <p className=" flex translate-x-[20%] translate-y-[30%] font-bold">
                     Ron Rizzly
                   </p>
-                  <UilComment className=" text-main translate-y-[30%]" />
+                  <UilComment className=" text-main translate-y-[100%] ml-[10vw] " />
                 </div>
               </div>
             </div>
