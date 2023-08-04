@@ -48,7 +48,7 @@ export default function Testimonials() {
                     className=" h-[8vh] aspect-auto rounded-full"
                   />
                   <p className=" flex translate-x-[20%] translate-y-[30%] font-bold">
-                    Ron
+                    Ron Rizzly
                   </p>
                   <UilComment className=" text-main translate-y-[100%] ml-[10vw] " />
                 </div>
