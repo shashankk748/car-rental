@@ -3,10 +3,10 @@ import { UilComment } from "@iconscout/react-unicons";
 
 export default function Testimonials() {
   return (
-    <section className="bg-[rgb(248,248,248)] mt-[10vh]">
+    <section className="bg-[rgb(248,248,248)] mt-[10vh] ">
       <div className="flex justify-center">
         <div className=" flex flex-col justify-center w-2/3 ">
-          <div className="mt-[10vh] flex flex-col text-center gap-8">
+          <div className="mt-[10vh] mb-[10vh] flex flex-col text-center gap-8">
             <div className=" text-2xl font-semibold">Reviewed by People</div>
             <div className=" text-5xl font-extrabold">
               Client's Testimonials
