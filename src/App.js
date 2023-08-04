@@ -7,6 +7,7 @@ import CarShow from "./Components/home/CarShow";
 import { SaveBig } from "./Components/home/CarShow";
 import Ads from "./Components/home/Ads";
 import Testimonials from "./Components/home/Testimonials";
+import Faq from "./Components/home/Faq";
 // import { useRef, useEffect } from "react";
 // import { hover } from "@testing-library/user-event/dist/hover";
 
@@ -51,6 +52,7 @@ function App() {
         <SaveBig />
         <Ads />
         <Testimonials />
+        <Faq />
       </div>
     </div>
   );
