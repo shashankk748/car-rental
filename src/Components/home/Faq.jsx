@@ -17,7 +17,7 @@ export default function Faq() {
   const getAnswerClasses = (index) => {
     return `faq-answer text-desc ${
       selectedQuestion === index
-        ? "max-h-[500px] opacity-100 transition-all ease-in-out duration-500 p-4 justify-self-stretch"
+        ? "max-h-[500px] opacity-100 transition-all ease-in-out duration-500 p-6 justify-self-stretch"
         : "max-h-0 opacity-0 transition-all duration-500 ease-in-out"
     }`;
   };
@@ -33,7 +33,7 @@ export default function Faq() {
               Our Website: Answers to Common Concerns and Inquiries.
             </p>
           </div>
-          <div className="w-2/3 border-2 shadow-md hover:cursor-pointer justify-items-center items-center translate-x-[20%] translate-y-[20%]">
+          <div className="w-2/3 border-2 shadow-md hover:cursor-pointer justify-items-center items-center translate-x-[25%] translate-y-[20%]">
             <div
               className={getQuestionClasses(1)}
               onClick={() => handleQuestionClick(1)}
