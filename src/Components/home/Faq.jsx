@@ -10,30 +10,30 @@ export default function Faq() {
 
   const getQuestionClasses = (index) => {
     return `p-4 border-b-[1px] flex flex-row items-center gap-2 text-lg border-[#E5E4E2] w-full ${
-      selectedQuestion === index ? "bg-main" : ""
+      selectedQuestion === index ? "bg-main text-white" : ""
     }`;
   };
 
   const getAnswerClasses = (index) => {
     return `faq-answer text-desc ${
       selectedQuestion === index
-        ? "max-h-[500px] opacity-100 transition-all duration-200 ease-in-out"
-        : "max-h-0 opacity-0"
+        ? "max-h-[500px] opacity-100 transition-all ease-in-out duration-500 p-4 justify-self-stretch"
+        : "max-h-0 opacity-0 transition-all duration-500 ease-in-out"
     }`;
   };
 
   return (
-    <section className="flex justify-center items-center h-screen">
+    <section className="flex justify-center mt-[10vh]">
       <div className="w-2/3">
-        <div className="flex flex-col justify-center items-center gap-8">
-          <div className="text-center w-full gap-4">
+        <div className="flex flex-col gap-9">
+          <div className="text-center w-full">
             <h1 className="text-6xl font-bold">Frequently Asked Questions</h1>
-            <p className="text-desc w-2/3 mx-auto">
+            <p className="text-desc w-2/3 mx-auto mt-[5vh]">
               Frequently Asked Questions About the Car Rental Booking Process on
               Our Website: Answers to Common Concerns and Inquiries.
             </p>
           </div>
-          <div className="w-full border-2 shadow-md hover:cursor-pointer">
+          <div className="w-2/3 border-2 shadow-md hover:cursor-pointer justify-items-center items-center translate-x-[20%] translate-y-[20%]">
             <div
               className={getQuestionClasses(1)}
               onClick={() => handleQuestionClick(1)}
