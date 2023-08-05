@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { UilAngleDown } from "@iconscout/react-unicons";
+import carimage from "./car.jpg";
 
 export default function Faq() {
   const [selectedQuestion, setSelectedQuestion] = useState(null);
@@ -33,7 +34,8 @@ export default function Faq() {
               Our Website: Answers to Common Concerns and Inquiries.
             </p>
           </div>
-          <div className="w-2/3 border-2 shadow-md hover:cursor-pointer justify-items-center items-center translate-x-[25%] translate-y-[20%]">
+
+          <div className="w-2/3 border-2 shadow-md hover:cursor-pointer justify-items-center items-center translate-x-[25%] translate-y-[20%] z-10">
             <div
               className={getQuestionClasses(1)}
               onClick={() => handleQuestionClick(1)}
@@ -99,6 +101,11 @@ export default function Faq() {
               sometimes result in lower prices.
             </div>
           </div>
+          <img
+            src={carimage}
+            className="aspect-auto h-[50%] w-[50%] right-0 z-0"
+            alt="random_car"
+          />
         </div>
       </div>
     </section>
